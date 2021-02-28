@@ -1,0 +1,48 @@
+body{
+  height: 100vh;
+  background-image: url('../img/bg-amoeba.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dati-utente{
+  font-size: 20px;
+}
+h1{
+  font-size: 50px;
+}
+.jumbo{
+  display: flex;
+  align-items: center;
+}
+#nome{
+  border-radius: 20px;
+  padding: 10px 20px;
+  background: #3C865D;
+  margin-right: 10px;
+}
+#cognome{
+  border-radius: 20px;
+  padding: 10px 20px;
+  background: #3C865D;
+  margin-right: 10px;
+}
+#colore{
+  border-radius: 20px;
+  padding: 10px 20px;
+  background: #3C865D;
+  margin-right: 10px;
+}
+#password{
+  border-radius: 20px;
+  padding: 10px 20px;
+  background: red;
+  text-align: center;
+}
+.jumbo img{
+  width: 400px;
+}
